@@ -126,7 +126,7 @@ const ProjectsSection = () => {
                                 </h3>
                                 <p className="text-gray-700 mb-6">{project.description}</p>
                                 {project.github && (
-                                    <a href={project.github} className="text-blue-500 border px-4 py-2 rounded-full hover:bg-blue-500 hover:text-white">
+                                    <a href={project.github} className="text-blue-500 px-4 py-2 border rounded-md hover:bg-blue-500 hover:text-white">
                                         View on GitHub
                                     </a>
                                 )}
