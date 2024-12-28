@@ -60,7 +60,7 @@ const Footer = () => {
             <footer class="bg-gray-900 text-gray-400 mt-16">
                 <div class="container mx-auto px-8 text-center">
                     <p class="mb-4">Designed & Developed by <span class="text-blue-400 font-bold">Aditya Maddeshiya</span></p>
-                    <p>&copy; 2024 Aditya Maddeshiya. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Aditya Maddeshiya. All rights reserved.</p>
                 </div>
             </footer>
         </Section>
