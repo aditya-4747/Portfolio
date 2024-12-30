@@ -14,7 +14,7 @@ const Header = () => {
                 </motion.div>
 
                 <ul className="hidden md:flex space-x-8">
-                    {["Home", "About", "Projects", "Skills", "Contact"].map((item) => (
+                    {["Home", "About", "Portfolio", "Skills", "Contact"].map((item) => (
                         <motion.li
                             key={item}
                             className="text-gray-500 text-lg cursor-pointer hover:text-blue-500"

@@ -89,7 +89,7 @@ const ProjectsSection = () => {
         <Section id="projects" className="bg-black text-white py-16">
             <div className="container mx-auto px-6 md:px-12 lg:px-24">
                 <h2 className="text-6xl font-bold mb-12 text-blue-500 text-center font-ysabeau">
-                    Projects
+                    Portfolio
                 </h2>
 
                 <div className="flex justify-center mb-8 sm:space-x-4 max-sm:grid max-sm:grid-cols-3 max-sm:gap-2">
@@ -97,7 +97,7 @@ const ProjectsSection = () => {
                         <button
                             key={category}
                             onClick={() => setActiveCategory(category)}
-                            className={`px-4 py-2 rounded-lg ${activeCategory === category
+                            className={`px-4 py-2 rounded-lg font-karla ${activeCategory === category
                                 ? "bg-blue-600 text-white"
                                 : "bg-white text-blue-600"
                                 }`}
