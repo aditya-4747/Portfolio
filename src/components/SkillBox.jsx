@@ -12,7 +12,7 @@ const SkillBox = () => {
             const randomSkill = skills[Math.floor(Math.random() * skills.length)];
             const randomPosition = {
                 // Random position within 20%-50% top & 20%-80% left the box
-                top: `${Math.random() * 30 + 20}%`, 
+                top: `${Math.random() * 40 + 20}%`, 
                 left: `${Math.random() * 60 + 20}%`,
             };
 

@@ -29,7 +29,7 @@ const HomeSection = () => {
                         transition={{ duration: 0.3 }}
                     >
                         <a
-                            href="#projects"
+                            href="#portfolio"
                             className="inline-block px-8 py-3 bg-blue-600 text-white text-lg font-semibold rounded-full shadow-lg hover:bg-blue-700 transition"
                         >
                             View My Work
